@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    
+}
+
+h1 {
+    font-size: 200px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+    color: #a84d4d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.simple-btn {
+  /* Step 1: Strip the default browser button look */
+  background-color: #007bff; /* Modern royal blue */
+  border: none;              /* Removes the ugly default border */
+  outline: none;             /* Removes the default click outline */
+   
+  /* Step 2: Add modern shape and typography */
+  color: #ffffff;            /* Crisp white text */
+  font-size: 16px;           /* Readable font size */
+  font-family: sans-serif;   /* Clean, standard font */
+  padding: 12px 24px;        /* Breathing room (top/bottom, left/right) */
+  border-radius: 4px;        /* Subtly rounded corners */
+  
+  /* Step 3: Make it feel interactive */
+  cursor: pointer;           /* Changes mouse arrow to a clickable hand */
+  transition: background-color 0.2s ease, transform 0.1s ease; /* Smooth animations */
+}
+
+/* Hover Effect: Changes color when the mouse moves over it */
+.simple-btn:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+/* Active Effect: Shrinks slightly when a user clicks down on it */
+.simple-btn:active {
+  transform: scale(0.98);    /* Subtle "button press" feedback */
+}
+
